@@ -1,0 +1,35 @@
+.getBook {
+  background-color: $colorPrimary;
+  padding: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  &__title {
+    @include title($colorWhite);
+    margin-top: 70px;
+    margin-bottom: 24px;
+  }
+
+  &__line {
+    margin-bottom: 27px;
+  }
+
+  &__caption {
+    width: 540px;
+    @include text("Inter", 19px, $colorLightBlue);
+    margin-bottom: 27px;
+  }
+
+  &__button {
+    width: 220px;
+    height: 66px;
+    color: $colorWhite;
+    margin-bottom: 65px;
+  }
+
+  &__image {
+    height: 394px;
+    width: 560px;
+  }
+}

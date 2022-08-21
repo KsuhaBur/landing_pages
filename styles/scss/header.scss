@@ -1,0 +1,57 @@
+@import "./settings.scss";
+@import "./components.scss";
+
+.header {
+  background-color: $colorPrimary;
+  padding: 21px 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  &__logo {
+    width: 119px;
+    height: 35px;
+    margin-right: 38px;
+  }
+
+  &__icons {
+    display: flex;
+    flex-direction: row;
+    &-item {
+      width: 45px;
+      height: 45px;
+      margin-right: 10px;
+    }
+  }
+
+  &__nav {
+    width: 756px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    &-item {
+      font-family: "Inter";
+      font-style: normal;
+      font-size: 17px;
+      line-height: 26px;
+      color: $colorWhite;
+      text-decoration: none;
+      &:hover {
+        color: $colorGold;
+        cursor: pointer;
+      }
+    }
+  }
+
+  &__cart {
+    width: 17px;
+    height: 17px;
+  }
+
+  &__button {
+    width: 222px;
+    height: 66px;
+  }
+}

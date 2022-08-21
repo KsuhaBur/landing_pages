@@ -1,0 +1,56 @@
+@import "./components.scss";
+
+.resources {
+  padding: 130px 70px;
+  background-color: $colorLightBlue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__title {
+    @include title($colorPrimary);
+    margin-bottom: 23px;
+  }
+
+  &__line {
+    margin-bottom: 70px;
+  }
+
+  &__cards {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.card-resources {
+  width: 420px;
+  height: 622px;
+  background-color: $colorWhite;
+
+  &__container {
+    padding: 30px;
+  }
+
+  &__title {
+    @include text("Cardo", 24px, $colorPrimary);
+    margin-bottom: 19px;
+  }
+
+  &__description {
+    @include text("Inter", 19px, $colorSnow);
+    margin-bottom: 11px;
+  }
+
+  &__link {
+    @include link($colorPrimary, 19px);
+    float: left;
+  }
+
+  &__date {
+    @include text("Inter", 16px, $colorPrimary);
+    float: right;
+  }
+}

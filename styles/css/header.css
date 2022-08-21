@@ -1,0 +1,88 @@
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0; }
+
+.button {
+  font-family: "Cardo";
+  border: 2px solid #ffca42;
+  font-size: 19px; }
+  .button:hover {
+    cursor: pointer;
+    opacity: 0.9; }
+  .button_gold {
+    background-color: #ffca42;
+    color: #1b3764; }
+  .button_transparent {
+    background-color: transparent; }
+  .button_primary {
+    background-color: #1b3764;
+    border: 2px solid #1b3764;
+    color: #ffffff; }
+
+.line {
+  width: 35px;
+  height: 3px;
+  background-color: #ffca42;
+  border-radius: 0;
+  margin-top: 13px; }
+
+.circle {
+  width: 35px;
+  height: 35px;
+  background: #ffca42;
+  border-radius: 50%; }
+
+.points {
+  float: left;
+  margin-right: 11px; }
+
+.header {
+  background-color: #1b3764;
+  padding: 21px 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; }
+  .header__logo {
+    width: 119px;
+    height: 35px;
+    margin-right: 38px; }
+  .header__icons {
+    display: flex;
+    flex-direction: row; }
+    .header__icons-item {
+      width: 45px;
+      height: 45px;
+      margin-right: 10px; }
+  .header__nav {
+    width: 756px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around; }
+    .header__nav-item {
+      font-family: "Inter";
+      font-style: normal;
+      font-size: 17px;
+      line-height: 26px;
+      color: #ffffff;
+      text-decoration: none; }
+      .header__nav-item:hover {
+        color: #ffca42;
+        cursor: pointer; }
+  .header__cart {
+    width: 17px;
+    height: 17px; }
+  .header__button {
+    width: 222px;
+    height: 66px; }
+
+/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,45 @@
+.button {
+  font-family: "Cardo";
+  border: 2px solid $colorGold;
+  font-size: 19px;
+
+  &:hover {
+    cursor: pointer;
+    opacity: 0.9;
+  }
+
+  &_gold {
+    background-color: $colorGold;
+    color: $colorPrimary;
+  }
+
+  &_transparent {
+    background-color: transparent;
+  }
+
+  &_primary {
+    background-color: $colorPrimary;
+    border: 2px solid $colorPrimary;
+    color: $colorWhite;
+  }
+}
+
+.line {
+  width: 35px;
+  height: 3px;
+  background-color: $colorGold;
+  border-radius: 0;
+  margin-top: 13px;
+}
+
+.circle {
+  width: 35px;
+  height: 35px;
+  background: $colorGold;
+  border-radius: 50%;
+}
+
+.points {
+  float: left;
+  margin-right: 11px;
+}

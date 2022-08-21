@@ -1,0 +1,23 @@
+@import "./header.scss";
+@import "./settings.scss";
+@import "./welcome.scss";
+@import "./books.scss";
+@import "./about-author.scss";
+@import "./trusted.scss";
+@import "./get-book.scss";
+@import "./learn-section.scss";
+@import "./knowledge.scss";
+@import "./readers.scss";
+@import "./resources.scss";
+@import "./update.scss";
+@import "./footer.scss";
+
+@font-face {
+  font-family: "Cardo";
+  src: url(/fonts/Cardo-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(/fonts/Inter-V.ttf);
+}

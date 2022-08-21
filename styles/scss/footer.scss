@@ -1,0 +1,78 @@
+.footer {
+  padding: 24px 70px;
+  background-color: $colorPrimary;
+
+  &__info {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding-top: 75px;
+    padding-bottom: 95px;
+  }
+
+  &__column-1,
+  &__column-2,
+  &__column-3,
+  &__column-4 {
+    margin-right: 88px;
+    height: 258px;
+  }
+
+  &__column-4 {
+    text-align: start;
+  }
+
+  &__column {
+    &-title {
+      @include text("Cardo", 24px, $colorWhite);
+      margin-bottom: 24px;
+    }
+
+    &-contact {
+      @include text("Cardo", 18px, $colorWhite);
+      margin-bottom: 28px;
+    }
+
+    &-contact span {
+      @include text("Inter", 17px, $colorLightSnow);
+      margin-left: 28px;
+      width: 235px;
+      float: right;
+    }
+
+    &-list {
+      padding: 11px;
+      &-item {
+        list-style: none;
+        margin-bottom: 21px;
+      }
+
+      &-item a {
+        @include text("Inter", 18px, $colorLightSnow);
+        text-decoration: none;
+
+        &:hover {
+          cursor: pointer;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  &__icons {
+    width: 278px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 21px;
+  }
+
+  &__down {
+    @include text("Inter", 17px, $colorLightSnow);
+    text-align: center;
+  }
+
+  &__down span {
+    color: $colorWhite;
+  }
+}

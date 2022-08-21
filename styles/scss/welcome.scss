@@ -1,0 +1,84 @@
+@import "./settings.scss";
+@import "./components.scss";
+
+.welcome {
+  padding: 100px 70px;
+  background-color: $colorPrimary;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  &__button {
+    width: 222px;
+    height: 66px;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &-line {
+      float: left;
+      margin-right: 14px;
+    }
+    &-title {
+      &_small {
+        @include text("Cardo", 21px, $colorWhite);
+        float: right;
+      }
+
+      &_big {
+        width: 512px;
+        margin-top: 10px;
+        @include text("Cardo", 64px, $colorWhite);
+      }
+    }
+
+    &-description {
+      width: 562px;
+      margin-top: 24px;
+      @include text("Inter", 18px, $colorLightSnow);
+    }
+
+    &-action {
+      margin-top: 42px;
+      width: 100%;
+
+      &-link {
+        @include link($colorWhite, 19px);
+        margin-left: 51px;
+      }
+    }
+
+    &-list {
+      margin-top: 47px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      list-style: none;
+
+      &-item img {
+        width: 16px;
+        height: 16px;
+        float: left;
+        margin-right: 10px;
+        margin-top: 7px;
+      }
+
+      &-item {
+        @include text("Cardo", 24px, $colorWhite);
+      }
+
+      &-item p {
+        @include text("Inter", 17px, $colorLightSnow);
+        margin-left: 26px;
+      }
+    }
+  }
+
+  &__image {
+    height: 800px;
+    width: 592px;
+  }
+}

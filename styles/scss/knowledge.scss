@@ -1,0 +1,82 @@
+@import "./components.scss";
+
+.knowledge {
+  background-color: $colorLightBlue;
+  padding: 130px 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__title {
+    @include title($colorPrimary);
+    margin-bottom: 23px;
+  }
+
+  &__line {
+    margin-bottom: 70px;
+  }
+
+  &__cards {
+    width: 100%;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  &__button {
+    width: 429px;
+    height: 76px;
+    margin-top: 70px;
+    margin-bottom: 34px;
+    text-align: center;
+  }
+
+  &__footer {
+    width: 331px;
+    text-align: center;
+    @include text("Inter", 18px, $colorSnow);
+  }
+
+  &__footer span,
+  &__footer a {
+    @include text("Inter", 18px, $colorPrimary);
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.card-knowledge {
+  background-color: $colorWhite;
+  padding: 42px 40px;
+  display: flex;
+  flex-direction: column;
+
+  &__title {
+    margin-bottom: 21px;
+    @include text("Cardo", 24px, $colorPrimary);
+  }
+
+  &__caption {
+    margin-bottom: 10px;
+    @include text("Inter", 19px, $colorSnow);
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: row;
+
+    &-item {
+      @include text("Cardo", 22px, $colorPrimary);
+      margin-left: 47px;
+    }
+
+    &-item span {
+      @include text("Inter", 17px, $colorSnow);
+      margin-right: 10px;
+    }
+  }
+}

@@ -1,0 +1,91 @@
+@import "./components.scss";
+
+.readers {
+  padding: 130px 70px;
+  display: flex;
+  flex-direction: row;
+
+  &-info {
+    min-width: 468px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 43px;
+
+    &__title {
+      width: 329px;
+      @include title($colorPrimary);
+      margin-bottom: 23px;
+    }
+
+    &__line {
+      margin-bottom: 33px;
+    }
+
+    &__description {
+      margin-bottom: 27px;
+      @include text("Inter", 19px, $colorSnow);
+      line-height: 34px;
+    }
+
+    &__rating span {
+      @include text("Cardo", 22px, $colorPrimary);
+    }
+
+    &__rating p {
+      @include text("Inter", 18px, $colorPrimary);
+      margin-top: 10px;
+    }
+  }
+
+  &-cards {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+    &__column-1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    &__column-2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+}
+
+.card-readers {
+  width: 320px;
+  height: 292px;
+  background-color: $colorPrimary;
+  padding: 25px 35px;
+  margin: 20px;
+
+  &__avatar {
+    float: left;
+  }
+
+  &__name {
+    margin-top: 15px;
+    margin-left: 100px;
+    @include text("Cardo", 24px, $colorWhite);
+    margin-bottom: 15px;
+  }
+
+  &__rating {
+    margin-bottom: 38px;
+    margin-left: 100px;
+  }
+
+  &__title {
+    @include text("Cardo", 22px, $colorWhite);
+    margin-bottom: 13px;
+  }
+
+  &__caption {
+    @include text("Inter", 18px, $colorLightSnow);
+  }
+}

@@ -1,0 +1,64 @@
+.update {
+  padding: 120px 70px;
+  text-align: center;
+
+  &-form {
+    height: 490px;
+    background-color: $colorGold;
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 0px 19px rgba(0, 0, 0, 0.18);
+    border-radius: 5px;
+
+    &__title {
+      @include title($colorPrimary);
+      margin-top: 96px;
+      margin-bottom: 23px;
+    }
+
+    &__line {
+      background-color: $colorPrimary;
+      margin-bottom: 23px;
+    }
+
+    &__description {
+      width: 550px;
+      @include text("Inter", 18px, $colorPrimary);
+      text-align: center;
+      margin-bottom: 49px;
+    }
+
+    &__form {
+      padding: 0 30px;
+      width: 100%;
+    }
+  }
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  &__email {
+    width: 656px;
+    height: 70px;
+    padding: 0 39px;
+    border: none;
+    margin-right: 16px;
+
+    &::placeholder {
+      @include text("Inter", 18px, $colorLightSnow);
+    }
+  }
+
+  &__button {
+    width: 328px;
+    height: 70px;
+  }
+}

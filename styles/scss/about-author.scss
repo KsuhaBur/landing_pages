@@ -1,0 +1,102 @@
+@import "./components.scss";
+
+.aboutAuthor {
+  position: relative;
+  padding: 150px 40px;
+  background-color: $colorBlue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: -10;
+
+  &__foto img {
+    height: 620px;
+    width: 525px;
+    z-index: 100;
+  }
+
+  &__contour {
+    height: 590px;
+    width: 495px;
+    border: 10px solid $colorGold;
+    top: 190px;
+    left: 80px;
+    float: left;
+    position: absolute;
+    z-index: -1;
+  }
+
+  &__info {
+    width: 605px;
+
+    &-title {
+      @include title($colorPrimary);
+    }
+
+    &-line {
+      margin-bottom: 33px;
+    }
+
+    &-description {
+      width: 559px;
+      @include text("Inter", 19px, $colorSnow);
+      margin-bottom: 33px;
+    }
+
+    &-rating {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 69px;
+
+      &-item {
+        width: 170px;
+      }
+
+      &-item:first-child {
+        border-right: 1px solid $colorGold;
+      }
+
+      &-item:nth-child(2) {
+        border-right: 1px solid $colorGold;
+      }
+
+      &-item h5 {
+        @include text("Cardo", 54px, $colorPrimary);
+      }
+
+      &-item p {
+        @include text("Inter", 17px, $colorSnow);
+      }
+    }
+
+    &-container {
+      display: flex;
+      flex-direction: column;
+      padding: 37px 25px;
+    }
+
+    &-cart {
+      width: 484px;
+      height: 161px;
+      background-color: $colorPrimary;
+
+      &-name {
+        @include text("Cardo", 22px, $colorGold);
+        margin-bottom: 10px;
+      }
+
+      &-item {
+        margin-bottom: 4px;
+        @include text("Inter", 18px, $colorLightSnow);
+      }
+    }
+
+    &-cart img {
+      width: 130px;
+      height: 130px;
+      float: left;
+      margin: 15px;
+    }
+  }
+}

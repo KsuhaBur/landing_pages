@@ -1,0 +1,60 @@
+.books {
+  padding: 130px 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__button {
+    width: 206px;
+    height: 66px;
+    color: $colorPrimary;
+  }
+
+  &__title {
+    @include title($colorPrimary);
+  }
+
+  &__line {
+    margin-bottom: 50px;
+  }
+}
+
+.block-books {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 0;
+
+  &__cart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    &-image {
+      margin-right: 30px;
+    }
+  }
+}
+
+.cart-info {
+  &-title {
+    @include title($colorPrimary);
+    margin-bottom: 7px;
+  }
+
+  &-price {
+    @include text("Inter", 21px, $colorGold);
+    margin-bottom: 17px;
+  }
+
+  &-caption {
+    @include text("Inter", 19px, $colorSnow);
+    margin-bottom: 13px;
+  }
+
+  &-print {
+    @include text("Cardo", 24px, $colorPrimary);
+    margin-bottom: 27px;
+  }
+}

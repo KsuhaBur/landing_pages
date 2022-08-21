@@ -1,0 +1,949 @@
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0; }
+
+.button {
+  font-family: "Cardo";
+  border: 2px solid #ffca42;
+  font-size: 19px; }
+  .button:hover {
+    cursor: pointer;
+    opacity: 0.9; }
+  .button_gold {
+    background-color: #ffca42;
+    color: #1b3764; }
+  .button_transparent {
+    background-color: transparent; }
+  .button_primary {
+    background-color: #1b3764;
+    border: 2px solid #1b3764;
+    color: #ffffff; }
+
+.line {
+  width: 35px;
+  height: 3px;
+  background-color: #ffca42;
+  border-radius: 0;
+  margin-top: 13px; }
+
+.circle {
+  width: 35px;
+  height: 35px;
+  background: #ffca42;
+  border-radius: 50%; }
+
+.points {
+  float: left;
+  margin-right: 11px; }
+
+.header {
+  background-color: #1b3764;
+  padding: 21px 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; }
+  .header__logo {
+    width: 119px;
+    height: 35px;
+    margin-right: 38px; }
+  .header__icons {
+    display: flex;
+    flex-direction: row; }
+    .header__icons-item {
+      width: 45px;
+      height: 45px;
+      margin-right: 10px; }
+  .header__nav {
+    width: 756px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around; }
+    .header__nav-item {
+      font-family: "Inter";
+      font-style: normal;
+      font-size: 17px;
+      line-height: 26px;
+      color: #ffffff;
+      text-decoration: none; }
+      .header__nav-item:hover {
+        color: #ffca42;
+        cursor: pointer; }
+  .header__cart {
+    width: 17px;
+    height: 17px; }
+  .header__button {
+    width: 222px;
+    height: 66px; }
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0; }
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0; }
+
+.button {
+  font-family: "Cardo";
+  border: 2px solid #ffca42;
+  font-size: 19px; }
+  .button:hover {
+    cursor: pointer;
+    opacity: 0.9; }
+  .button_gold {
+    background-color: #ffca42;
+    color: #1b3764; }
+  .button_transparent {
+    background-color: transparent; }
+  .button_primary {
+    background-color: #1b3764;
+    border: 2px solid #1b3764;
+    color: #ffffff; }
+
+.line {
+  width: 35px;
+  height: 3px;
+  background-color: #ffca42;
+  border-radius: 0;
+  margin-top: 13px; }
+
+.circle {
+  width: 35px;
+  height: 35px;
+  background: #ffca42;
+  border-radius: 50%; }
+
+.points {
+  float: left;
+  margin-right: 11px; }
+
+.welcome {
+  padding: 100px 70px;
+  background-color: #1b3764;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  .welcome__button {
+    width: 222px;
+    height: 66px; }
+  .welcome__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .welcome__info-line {
+      float: left;
+      margin-right: 14px; }
+    .welcome__info-title_small {
+      font-family: "Cardo";
+      font-size: 21px;
+      color: #ffffff;
+      float: right; }
+    .welcome__info-title_big {
+      width: 512px;
+      margin-top: 10px;
+      font-family: "Cardo";
+      font-size: 64px;
+      color: #ffffff; }
+    .welcome__info-description {
+      width: 562px;
+      margin-top: 24px;
+      font-family: "Inter";
+      font-size: 18px;
+      color: #b4c7e7; }
+    .welcome__info-action {
+      margin-top: 42px;
+      width: 100%; }
+      .welcome__info-action-link {
+        font-family: "Cardo";
+        font-size: 19px;
+        color: #ffffff;
+        height: 30px;
+        text-decoration: none;
+        border-bottom: 2px solid #ffffff;
+        margin-left: 51px; }
+    .welcome__info-list {
+      margin-top: 47px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      list-style: none; }
+      .welcome__info-list-item img {
+        width: 16px;
+        height: 16px;
+        float: left;
+        margin-right: 10px;
+        margin-top: 7px; }
+      .welcome__info-list-item {
+        font-family: "Cardo";
+        font-size: 24px;
+        color: #ffffff; }
+      .welcome__info-list-item p {
+        font-family: "Inter";
+        font-size: 17px;
+        color: #b4c7e7;
+        margin-left: 26px; }
+  .welcome__image {
+    height: 800px;
+    width: 592px; }
+
+.books {
+  padding: 130px 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .books__button {
+    width: 206px;
+    height: 66px;
+    color: #1b3764; }
+  .books__title {
+    font-family: "Cardo";
+    font-size: 42px;
+    color: #1b3764; }
+  .books__line {
+    margin-bottom: 50px; }
+
+.block-books {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 0; }
+  .block-books__cart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; }
+    .block-books__cart-image {
+      margin-right: 30px; }
+
+.cart-info-title {
+  font-family: "Cardo";
+  font-size: 42px;
+  color: #1b3764;
+  margin-bottom: 7px; }
+.cart-info-price {
+  font-family: "Inter";
+  font-size: 21px;
+  color: #ffca42;
+  margin-bottom: 17px; }
+.cart-info-caption {
+  font-family: "Inter";
+  font-size: 19px;
+  color: #969aa0;
+  margin-bottom: 13px; }
+.cart-info-print {
+  font-family: "Cardo";
+  font-size: 24px;
+  color: #1b3764;
+  margin-bottom: 27px; }
+
+.button {
+  font-family: "Cardo";
+  border: 2px solid #ffca42;
+  font-size: 19px; }
+  .button:hover {
+    cursor: pointer;
+    opacity: 0.9; }
+  .button_gold {
+    background-color: #ffca42;
+    color: #1b3764; }
+  .button_transparent {
+    background-color: transparent; }
+  .button_primary {
+    background-color: #1b3764;
+    border: 2px solid #1b3764;
+    color: #ffffff; }
+
+.line {
+  width: 35px;
+  height: 3px;
+  background-color: #ffca42;
+  border-radius: 0;
+  margin-top: 13px; }
+
+.circle {
+  width: 35px;
+  height: 35px;
+  background: #ffca42;
+  border-radius: 50%; }
+
+.points {
+  float: left;
+  margin-right: 11px; }
+
+.aboutAuthor {
+  position: relative;
+  padding: 150px 40px;
+  background-color: #f5f8fc;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: -10; }
+  .aboutAuthor__foto img {
+    height: 620px;
+    width: 525px;
+    z-index: 100; }
+  .aboutAuthor__contour {
+    height: 590px;
+    width: 495px;
+    border: 10px solid #ffca42;
+    top: 190px;
+    left: 80px;
+    float: left;
+    position: absolute;
+    z-index: -1; }
+  .aboutAuthor__info {
+    width: 605px; }
+    .aboutAuthor__info-title {
+      font-family: "Cardo";
+      font-size: 42px;
+      color: #1b3764; }
+    .aboutAuthor__info-line {
+      margin-bottom: 33px; }
+    .aboutAuthor__info-description {
+      width: 559px;
+      font-family: "Inter";
+      font-size: 19px;
+      color: #969aa0;
+      margin-bottom: 33px; }
+    .aboutAuthor__info-rating {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 69px; }
+      .aboutAuthor__info-rating-item {
+        width: 170px; }
+      .aboutAuthor__info-rating-item:first-child {
+        border-right: 1px solid #ffca42; }
+      .aboutAuthor__info-rating-item:nth-child(2) {
+        border-right: 1px solid #ffca42; }
+      .aboutAuthor__info-rating-item h5 {
+        font-family: "Cardo";
+        font-size: 54px;
+        color: #1b3764; }
+      .aboutAuthor__info-rating-item p {
+        font-family: "Inter";
+        font-size: 17px;
+        color: #969aa0; }
+    .aboutAuthor__info-container {
+      display: flex;
+      flex-direction: column;
+      padding: 37px 25px; }
+    .aboutAuthor__info-cart {
+      width: 484px;
+      height: 161px;
+      background-color: #1b3764; }
+      .aboutAuthor__info-cart-name {
+        font-family: "Cardo";
+        font-size: 22px;
+        color: #ffca42;
+        margin-bottom: 10px; }
+      .aboutAuthor__info-cart-item {
+        margin-bottom: 4px;
+        font-family: "Inter";
+        font-size: 18px;
+        color: #b4c7e7; }
+    .aboutAuthor__info-cart img {
+      width: 130px;
+      height: 130px;
+      float: left;
+      margin: 15px; }
+
+.trustedBest {
+  padding: 120px 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .trustedBest__title {
+    font-family: "Cardo";
+    font-size: 42px;
+    color: #1b3764; }
+  .trustedBest__line {
+    margin-top: 26px;
+    margin-bottom: 50px; }
+  .trustedBest__cards {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around; }
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  margin: 0 24px; }
+  .card__image {
+    width: 189px;
+    height: 100px;
+    margin-bottom: 19px; }
+  .card__title {
+    font-family: "Cardo";
+    font-size: 24px;
+    color: #1b3764;
+    margin-bottom: 19px; }
+  .card__description {
+    font-family: "Inter";
+    font-size: 19px;
+    color: #969aa0;
+    text-align: center; }
+
+.getBook {
+  background-color: #1b3764;
+  padding: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  .getBook__title {
+    font-family: "Cardo";
+    font-size: 42px;
+    color: #ffffff;
+    margin-top: 70px;
+    margin-bottom: 24px; }
+  .getBook__line {
+    margin-bottom: 27px; }
+  .getBook__caption {
+    width: 540px;
+    font-family: "Inter";
+    font-size: 19px;
+    color: #f4f8ff;
+    margin-bottom: 27px; }
+  .getBook__button {
+    width: 220px;
+    height: 66px;
+    color: #ffffff;
+    margin-bottom: 65px; }
+  .getBook__image {
+    height: 394px;
+    width: 560px; }
+
+.button {
+  font-family: "Cardo";
+  border: 2px solid #ffca42;
+  font-size: 19px; }
+  .button:hover {
+    cursor: pointer;
+    opacity: 0.9; }
+  .button_gold {
+    background-color: #ffca42;
+    color: #1b3764; }
+  .button_transparent {
+    background-color: transparent; }
+  .button_primary {
+    background-color: #1b3764;
+    border: 2px solid #1b3764;
+    color: #ffffff; }
+
+.line {
+  width: 35px;
+  height: 3px;
+  background-color: #ffca42;
+  border-radius: 0;
+  margin-top: 13px; }
+
+.circle {
+  width: 35px;
+  height: 35px;
+  background: #ffca42;
+  border-radius: 50%; }
+
+.points {
+  float: left;
+  margin-right: 11px; }
+
+.learn {
+  padding: 140px 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .learn__title {
+    font-family: "Cardo";
+    font-size: 42px;
+    color: #1b3764;
+    margin-bottom: 23px; }
+  .learn__line {
+    margin-bottom: 70px;
+    text-align: center; }
+  .learn__info {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+  .learn__cards {
+    display: grid;
+    gap: 30px;
+    justify-content: stretch;
+    width: 665px;
+    grid-template-columns: 1fr 1fr; }
+  .learn__image {
+    position: relative; }
+  .learn__contour {
+    height: 610px;
+    width: 495px;
+    border: 10px solid #ffca42;
+    top: 60px;
+    left: 80px;
+    float: left;
+    position: absolute;
+    z-index: -1; }
+
+.cards-learn {
+  position: relative;
+  width: 303px;
+  height: 272px;
+  background-color: #f4f8ff;
+  padding: 30px;
+  z-index: 1; }
+  .cards-learn__number {
+    margin-top: 38px;
+    font-family: "Cardo";
+    font-size: 23px;
+    color: #1b3764; }
+  .cards-learn__circle {
+    position: absolute;
+    margin-top: -33px;
+    margin-left: -5px;
+    z-index: -1; }
+  .cards-learn__description {
+    margin-top: 43px;
+    font-family: "Cardo";
+    font-size: 24px;
+    color: #1b3764; }
+
+.button {
+  font-family: "Cardo";
+  border: 2px solid #ffca42;
+  font-size: 19px; }
+  .button:hover {
+    cursor: pointer;
+    opacity: 0.9; }
+  .button_gold {
+    background-color: #ffca42;
+    color: #1b3764; }
+  .button_transparent {
+    background-color: transparent; }
+  .button_primary {
+    background-color: #1b3764;
+    border: 2px solid #1b3764;
+    color: #ffffff; }
+
+.line {
+  width: 35px;
+  height: 3px;
+  background-color: #ffca42;
+  border-radius: 0;
+  margin-top: 13px; }
+
+.circle {
+  width: 35px;
+  height: 35px;
+  background: #ffca42;
+  border-radius: 50%; }
+
+.points {
+  float: left;
+  margin-right: 11px; }
+
+.knowledge {
+  background-color: #f4f8ff;
+  padding: 130px 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .knowledge__title {
+    font-family: "Cardo";
+    font-size: 42px;
+    color: #1b3764;
+    margin-bottom: 23px; }
+  .knowledge__line {
+    margin-bottom: 70px; }
+  .knowledge__cards {
+    width: 100%;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr; }
+  .knowledge__button {
+    width: 429px;
+    height: 76px;
+    margin-top: 70px;
+    margin-bottom: 34px;
+    text-align: center; }
+  .knowledge__footer {
+    width: 331px;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 18px;
+    color: #969aa0; }
+  .knowledge__footer span, .knowledge__footer a {
+    font-family: "Inter";
+    font-size: 18px;
+    color: #1b3764;
+    text-decoration: none; }
+    .knowledge__footer span:hover, .knowledge__footer a:hover {
+      text-decoration: underline; }
+
+.card-knowledge {
+  background-color: #ffffff;
+  padding: 42px 40px;
+  display: flex;
+  flex-direction: column; }
+  .card-knowledge__title {
+    margin-bottom: 21px;
+    font-family: "Cardo";
+    font-size: 24px;
+    color: #1b3764; }
+  .card-knowledge__caption {
+    margin-bottom: 10px;
+    font-family: "Inter";
+    font-size: 19px;
+    color: #969aa0; }
+  .card-knowledge__list {
+    display: flex;
+    flex-direction: row; }
+    .card-knowledge__list-item {
+      font-family: "Cardo";
+      font-size: 22px;
+      color: #1b3764;
+      margin-left: 47px; }
+    .card-knowledge__list-item span {
+      font-family: "Inter";
+      font-size: 17px;
+      color: #969aa0;
+      margin-right: 10px; }
+
+.button {
+  font-family: "Cardo";
+  border: 2px solid #ffca42;
+  font-size: 19px; }
+  .button:hover {
+    cursor: pointer;
+    opacity: 0.9; }
+  .button_gold {
+    background-color: #ffca42;
+    color: #1b3764; }
+  .button_transparent {
+    background-color: transparent; }
+  .button_primary {
+    background-color: #1b3764;
+    border: 2px solid #1b3764;
+    color: #ffffff; }
+
+.line {
+  width: 35px;
+  height: 3px;
+  background-color: #ffca42;
+  border-radius: 0;
+  margin-top: 13px; }
+
+.circle {
+  width: 35px;
+  height: 35px;
+  background: #ffca42;
+  border-radius: 50%; }
+
+.points {
+  float: left;
+  margin-right: 11px; }
+
+.readers {
+  padding: 130px 70px;
+  display: flex;
+  flex-direction: row; }
+  .readers-info {
+    min-width: 468px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 43px; }
+    .readers-info__title {
+      width: 329px;
+      font-family: "Cardo";
+      font-size: 42px;
+      color: #1b3764;
+      margin-bottom: 23px; }
+    .readers-info__line {
+      margin-bottom: 33px; }
+    .readers-info__description {
+      margin-bottom: 27px;
+      font-family: "Inter";
+      font-size: 19px;
+      color: #969aa0;
+      line-height: 34px; }
+    .readers-info__rating span {
+      font-family: "Cardo";
+      font-size: 22px;
+      color: #1b3764; }
+    .readers-info__rating p {
+      font-family: "Inter";
+      font-size: 18px;
+      color: #1b3764;
+      margin-top: 10px; }
+  .readers-cards {
+    width: 100%;
+    display: flex;
+    flex-direction: row; }
+    .readers-cards__column-1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+    .readers-cards__column-2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+
+.card-readers {
+  width: 320px;
+  height: 292px;
+  background-color: #1b3764;
+  padding: 25px 35px;
+  margin: 20px; }
+  .card-readers__avatar {
+    float: left; }
+  .card-readers__name {
+    margin-top: 15px;
+    margin-left: 100px;
+    font-family: "Cardo";
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 15px; }
+  .card-readers__rating {
+    margin-bottom: 38px;
+    margin-left: 100px; }
+  .card-readers__title {
+    font-family: "Cardo";
+    font-size: 22px;
+    color: #ffffff;
+    margin-bottom: 13px; }
+  .card-readers__caption {
+    font-family: "Inter";
+    font-size: 18px;
+    color: #b4c7e7; }
+
+.button {
+  font-family: "Cardo";
+  border: 2px solid #ffca42;
+  font-size: 19px; }
+  .button:hover {
+    cursor: pointer;
+    opacity: 0.9; }
+  .button_gold {
+    background-color: #ffca42;
+    color: #1b3764; }
+  .button_transparent {
+    background-color: transparent; }
+  .button_primary {
+    background-color: #1b3764;
+    border: 2px solid #1b3764;
+    color: #ffffff; }
+
+.line {
+  width: 35px;
+  height: 3px;
+  background-color: #ffca42;
+  border-radius: 0;
+  margin-top: 13px; }
+
+.circle {
+  width: 35px;
+  height: 35px;
+  background: #ffca42;
+  border-radius: 50%; }
+
+.points {
+  float: left;
+  margin-right: 11px; }
+
+.resources {
+  padding: 130px 70px;
+  background-color: #f4f8ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .resources__title {
+    font-family: "Cardo";
+    font-size: 42px;
+    color: #1b3764;
+    margin-bottom: 23px; }
+  .resources__line {
+    margin-bottom: 70px; }
+  .resources__cards {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+
+.card-resources {
+  width: 420px;
+  height: 622px;
+  background-color: #ffffff; }
+  .card-resources__container {
+    padding: 30px; }
+  .card-resources__title {
+    font-family: "Cardo";
+    font-size: 24px;
+    color: #1b3764;
+    margin-bottom: 19px; }
+  .card-resources__description {
+    font-family: "Inter";
+    font-size: 19px;
+    color: #969aa0;
+    margin-bottom: 11px; }
+  .card-resources__link {
+    font-family: "Cardo";
+    font-size: 19px;
+    color: #1b3764;
+    height: 30px;
+    text-decoration: none;
+    border-bottom: 2px solid #1b3764;
+    float: left; }
+  .card-resources__date {
+    font-family: "Inter";
+    font-size: 16px;
+    color: #1b3764;
+    float: right; }
+
+.update {
+  padding: 120px 70px;
+  text-align: center; }
+  .update-form {
+    height: 490px;
+    background-color: #ffca42;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 0px 19px rgba(0, 0, 0, 0.18);
+    border-radius: 5px; }
+    .update-form__title {
+      font-family: "Cardo";
+      font-size: 42px;
+      color: #1b3764;
+      margin-top: 96px;
+      margin-bottom: 23px; }
+    .update-form__line {
+      background-color: #1b3764;
+      margin-bottom: 23px; }
+    .update-form__description {
+      width: 550px;
+      font-family: "Inter";
+      font-size: 18px;
+      color: #1b3764;
+      text-align: center;
+      margin-bottom: 49px; }
+    .update-form__form {
+      padding: 0 30px;
+      width: 100%; }
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; }
+  .form__email {
+    width: 656px;
+    height: 70px;
+    padding: 0 39px;
+    border: none;
+    margin-right: 16px; }
+    .form__email::placeholder {
+      font-family: "Inter";
+      font-size: 18px;
+      color: #b4c7e7; }
+  .form__button {
+    width: 328px;
+    height: 70px; }
+
+.footer {
+  padding: 24px 70px;
+  background-color: #1b3764; }
+  .footer__info {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding-top: 75px;
+    padding-bottom: 95px; }
+  .footer__column-1, .footer__column-2, .footer__column-3, .footer__column-4 {
+    margin-right: 88px;
+    height: 258px; }
+  .footer__column-4 {
+    text-align: start; }
+  .footer__column-title {
+    font-family: "Cardo";
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 24px; }
+  .footer__column-contact {
+    font-family: "Cardo";
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 28px; }
+  .footer__column-contact span {
+    font-family: "Inter";
+    font-size: 17px;
+    color: #b4c7e7;
+    margin-left: 28px;
+    width: 235px;
+    float: right; }
+  .footer__column-list {
+    padding: 11px; }
+    .footer__column-list-item {
+      list-style: none;
+      margin-bottom: 21px; }
+    .footer__column-list-item a {
+      font-family: "Inter";
+      font-size: 18px;
+      color: #b4c7e7;
+      text-decoration: none; }
+      .footer__column-list-item a:hover {
+        cursor: pointer;
+        text-decoration: underline; }
+  .footer__icons {
+    width: 278px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 21px; }
+  .footer__down {
+    font-family: "Inter";
+    font-size: 17px;
+    color: #b4c7e7;
+    text-align: center; }
+  .footer__down span {
+    color: #ffffff; }
+
+@font-face {
+  font-family: "Cardo";
+  src: url(/fonts/Cardo-Regular.ttf); }
+@font-face {
+  font-family: "Inter";
+  src: url(/fonts/Inter-V.ttf); }
+
+/*# sourceMappingURL=main.css.map */

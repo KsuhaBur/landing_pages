@@ -1,0 +1,116 @@
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0; }
+
+.button {
+  font-family: "Cardo";
+  border: 2px solid #ffca42;
+  font-size: 19px; }
+  .button:hover {
+    cursor: pointer;
+    opacity: 0.9; }
+  .button_gold {
+    background-color: #ffca42;
+    color: #1b3764; }
+  .button_transparent {
+    background-color: transparent; }
+  .button_primary {
+    background-color: #1b3764;
+    border: 2px solid #1b3764;
+    color: #ffffff; }
+
+.line {
+  width: 35px;
+  height: 3px;
+  background-color: #ffca42;
+  border-radius: 0;
+  margin-top: 13px; }
+
+.circle {
+  width: 35px;
+  height: 35px;
+  background: #ffca42;
+  border-radius: 50%; }
+
+.points {
+  float: left;
+  margin-right: 11px; }
+
+.welcome {
+  padding: 100px 70px;
+  background-color: #1b3764;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  .welcome__button {
+    width: 222px;
+    height: 66px; }
+  .welcome__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .welcome__info-line {
+      float: left;
+      margin-right: 14px; }
+    .welcome__info-title_small {
+      font-family: "Cardo";
+      font-size: 21px;
+      color: #ffffff;
+      float: right; }
+    .welcome__info-title_big {
+      width: 512px;
+      margin-top: 10px;
+      font-family: "Cardo";
+      font-size: 64px;
+      color: #ffffff; }
+    .welcome__info-description {
+      width: 562px;
+      margin-top: 24px;
+      font-family: "Inter";
+      font-size: 18px;
+      color: #b4c7e7; }
+    .welcome__info-action {
+      margin-top: 42px;
+      width: 100%; }
+      .welcome__info-action-link {
+        font-family: "Cardo";
+        font-size: 19px;
+        color: #ffffff;
+        height: 30px;
+        text-decoration: none;
+        border-bottom: 2px solid #ffffff;
+        margin-left: 51px; }
+    .welcome__info-list {
+      margin-top: 47px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      list-style: none; }
+      .welcome__info-list-item img {
+        width: 16px;
+        height: 16px;
+        float: left;
+        margin-right: 10px;
+        margin-top: 7px; }
+      .welcome__info-list-item {
+        font-family: "Cardo";
+        font-size: 24px;
+        color: #ffffff; }
+      .welcome__info-list-item p {
+        font-family: "Inter";
+        font-size: 17px;
+        color: #b4c7e7;
+        margin-left: 26px; }
+  .welcome__image {
+    height: 800px;
+    width: 592px; }
+
+/*# sourceMappingURL=welcome.css.map */

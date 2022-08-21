@@ -1,0 +1,59 @@
+$colorPrimary: #1b3764;
+$colorSnow: #969aa0;
+$colorBlue: #f5f8fc;
+$colorGold: #ffca42;
+$colorWhite: #ffffff;
+$colorLightSnow: #b4c7e7;
+$colorLightBlue: #f4f8ff;
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+@mixin text($fontFamily, $fontSize, $color) {
+  font-family: $fontFamily;
+  font-size: $fontSize;
+  color: $color;
+}
+
+@mixin link($color, $fontSize) {
+  font-family: "Cardo";
+  font-size: $fontSize;
+  color: $color;
+  height: 30px;
+  text-decoration: none;
+  border-bottom: 2px solid $color;
+}
+
+@mixin title($color) {
+  font-family: "Cardo";
+  font-size: 42px;
+  color: $color;
+}
+
+@mixin button($width, $height) {
+  width: $width;
+  height: $height;
+  font-family: "Cardo";
+  color: $colorPrimary;
+  border: 2px solid $colorGold;
+  font-size: 19px;
+
+  &:hover {
+    cursor: pointer;
+    opacity: 0.9;
+  }
+
+  &_gold {
+    background-color: $colorGold;
+  }
+}
